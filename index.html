@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport,device=device-width,initial-scale=1,shrink-to-fit=no">
+	<title>Online Dairy Form Demo</title>
+	<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<link href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@1,300&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css2?family=Dosis:wght@600&display=swap" rel="stylesheet">
+
+	<link rel='shortcut icon' type='image/vnd.microsoft.icon' href='img/favicon.png'> 
+	<link rel='apple-touch-icon' type='image/png' href='img/favicon.png'> 
+	<link rel='apple-touch-icon' type='image/png' sizes='72x72' href='img/favicon.png'> 
+	<link rel='apple-touch-icon' type='image/png' sizes='114x114' href='img/favicon.png'> 
+	<link rel='icon' type='image/png' href='img/favicon.png'> 
+</head>
+<body>
+<div class="container-fluid full-height">
+	<div class="row row-height">
+		<div class="col-lg-6 content-left">
+			<div class="content-left-wrapper panel top">
+				<div class="text1">
+
+						<figure><img src="img/she.jpg" alt="" class="img-fluid"> </figure>
+						<h2 class="Demo">Online Dairy Farm</h2>
+						<p class="Demo">This is Online Dairy Form Demo Page.</p>
+						<a href="#start" class="btn_1 rounded mobile_btn">Start Now!</a>
+					</div>
+					</div>
+				</div>
+		<div class="col-lg-6 content-right" id="start">
+			<div id="wizard_container">
+			<form method="post" data-netlify="true" data-netlify-recaptcha="true">
+			<input type="text" value="" name="website" id="website">
+			<div>
+				<div>
+					<h3 class="mainques"><strong>1/5</strong>Please fill in your contact details</h3>
+					<div class="form-group">
+						<input type="text" name="First Name"  class="form-control required" placeholder="First Name" required>
+					</div>
+					<div class="form-group">
+						<input type="text" name="Last Name"  class="form-control required" placeholder="Last Name" required>
+					</div>
+					<div class="form-group">
+						<input type="Number" name="Number"  class="form-control required" placeholder="Number" required>
+						 <small id="numberHelp" class="form-text text-muted">Your number is safe with us.</small>
+					</div>
+					<div class="form-group">
+						<input type="text" name="Area"  class="form-control required" placeholder="Delivery address" required>
+						<small id="numberHelp" class="form-text text-muted">Your address is safe with us.</small>
+					</div>
+					<div class="row">
+						<div class="col-3">
+							<div class="form-group">
+								<input type="Number" name="Quantity"  class="form-control required" placeholder="Kg" required>
+							</div>
+						</div>
+					<div class="col-9">
+						<div class="form-group radio_input">
+							<label class="container_radio">Goat Milk
+								<input type="radio" name="gender" value="Goat Milk" class="required">
+									<span class="checkmark"></span>
+							</label>
+							<label class="container_radio">Cow Milk
+								<input type="radio" name="gender" value="Cow Milk" class="required">
+									<span class="checkmark"></span>
+							</label>
+							<label class="container_radio"> Buffalo Milk
+                              <input type="radio" name="gender" value="Buffalo Milk" class="required">
+                              <span class="checkmark"></span>
+							</label>
+							<label class="container_radio">Cheese
+							<input type="radio" name="gender" value="Cheese" class="required">
+							<span class="checkmark"></span>
+						</label>
+						<label class="container_radio">Butter
+							<input type="radio" name="gender" value="Butter" class="required">
+							<span class="checkmark"></span>
+						</label>
+
+							</div>
+						</div>
+					</div>
+					 <div class="form-group" data-netlify-recaptcha="true"></div>
+					<div>
+						<button class="btn btn-primary">Submit</button>
+					</div>
+				</div>
+			</div>
+			</form>
+		</div>
+	</div>
+	</div>
+</div>
+<script type="text/javascript" src="js/bootstrap.min.js"></script>
+</body>
+</html>
